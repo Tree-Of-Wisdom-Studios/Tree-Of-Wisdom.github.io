@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
+
 * {
     margin: 0;
 	padding: 0;
@@ -6,18 +8,112 @@
     box-sizing: border-box;
 }
 
+html {
+	font-size: 62.5%;
+	background-color: #0F170D;
+	scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+	width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 5px;
+}
+
+main {
+	background: url(../assets/images/global-bg.svg);
+	background-repeat:repeat;
+	min-height: 90vh;
+}
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+li {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*HEADER*/
+
+header, footer {
+	font-family: Ruluko, sans-serif;
+}
+
+header {
+	background-color: #1E503B;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header > a {
+	margin-left: 42px;
+}
+
+header > nav {
+	font-size: 2.4rem;
+	width: 460px;
+	margin-right: 42px;
+	display: flex;
+	align-items: center;
+}
+
+header > nav > ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* FOOTER */
+
+footer {
+	font-family: Ruluko, sans-serif;
+	text-align: center;
+	background-color: #516250;
+	color: #FFFFFF;
+	font-size:1.6rem;
+}
+
+#footer-tow-logo{
+	padding-top: 15px;
+}
+
+#footer-tow-name{
+	font-size: 2.6rem;
+}
+
+#footer-tow-info{
+	margin-bottom: 41px;
+}
+
+#footer-tow-contact{
+	margin-bottom: 30px;
+}
+
+#footer-tow-copyr{
+	padding-bottom: 37px;
 }
