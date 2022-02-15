@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,600&display=swap');
 
 * {
     margin: 0;
@@ -14,6 +16,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body{
+	background: url(../assets/images/global-bg.svg);
+}
+
 body::-webkit-scrollbar {
 	width: 4px;
 }
@@ -24,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-	background: url(../assets/images/global-bg.svg);
+	font-family: Literata, sans-serif;
 	background-repeat:repeat;
 	min-height: 90vh;
 }

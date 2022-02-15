@@ -1,0 +1,31 @@
+* {
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Literata',serif;
+    cursor: default;
+    font-weight: normal;
+    margin: 0 auto;
+    font-size: 10rem;
+}
+
+blockquote {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 26px;
+}
+
+/* Titulo */
+
+#tree-of-wisdom{
+    padding: 96px 230px;
+    background: url(/assets/images/home-title-bg.svg);
+    background-size: cover;
+    opacity:0.72;  
+}
+
