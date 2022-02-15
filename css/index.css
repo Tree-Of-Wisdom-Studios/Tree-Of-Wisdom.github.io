@@ -1,0 +1,91 @@
+* {
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Literata',serif;
+    cursor: default;
+    font-weight: normal;
+    margin: 0 auto;
+    font-size: 10rem;
+}
+
+blockquote {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 26px;
+}
+
+/* TREE OF WISDOM */
+
+#tree-of-wisdom{
+    padding: 96px 230px;
+    background: url(/assets/images/home-title-bg.svg);
+    background-size: cover;
+    opacity:0.72;  
+}
+
+/* WHO WE ARE*/
+
+#who-we-are {
+    font-family: 'Literata',serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #1E503B;
+    padding: 3% 15% 6%;
+}
+
+#who-we-are p {
+    font-size: 1.8rem;
+    line-height: 26.73px;
+    margin-top: 24px;
+}
+
+#who-we-are h2 {
+    font-size: 3.4rem;
+}
+
+/* JOIN US*/
+
+#join-us {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 108px 208px 171px;
+}
+
+#join-us h2, #our-mission h2 {
+    font-size: 4.8rem;
+}
+
+#join-us p{
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+#join-us img{
+    width: 928px;
+    height: 83px;
+    position: relative;
+    right: 20px;
+}
+
+/* OUR MISSION */
+
+#our-mission section * {
+    padding: 30px 0;
+}
+
+#our-mission{
+    background: url(/assets/images/home-mission-bg.png);
+    background-size: cover;
+    margin-bottom: 240px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
