@@ -29,3 +29,23 @@ blockquote {
     opacity:0.72;  
 }
 
+/* WHO WE ARE*/
+
+#who-we-are {
+    font-family: 'Literata',serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #1E503B;
+    padding: 3% 15% 6%;
+}
+
+#who-we-are p {
+    font-size: 1.8rem;
+    line-height: 26.73px;
+    margin-top: 24px;
+}
+
+#who-we-are h2 {
+    font-size: 3.4rem;
+}
