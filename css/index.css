@@ -20,7 +20,7 @@ blockquote {
     font-size: 26px;
 }
 
-/* Titulo */
+/* TREE OF WISDOM */
 
 #tree-of-wisdom{
     padding: 96px 230px;
@@ -48,4 +48,27 @@ blockquote {
 
 #who-we-are h2 {
     font-size: 3.4rem;
+}
+
+/* JOIN US*/
+
+#join-us {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 108px 208px 171px;
+}
+
+#join-us h2, #our-mission h2 {
+    font-size: 4.8rem;
+}
+
+#join-us p{
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+#join-us img{
+    width: 928px;
+    height: 83px;
+    position: relative;
+    right: 20px;
 }
