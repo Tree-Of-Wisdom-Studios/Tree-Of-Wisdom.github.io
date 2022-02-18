@@ -17,6 +17,7 @@ html {
 }
 
 body{
+	color: #ffffff;
 	background: url(../assets/images/global-bg.svg);
 }
 
@@ -30,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-	font-family: Literata, sans-serif;
+	font-family: 'Literata', sans-serif;
 	background-repeat:repeat;
 	min-height: 90vh;
 }
