@@ -24,7 +24,7 @@ blockquote {
 
 #tree-of-wisdom{
     padding: 96px 230px;
-    background: url(/assets/images/home-title-bg.svg);
+    background: url(../assets/images/home-title-bg.svg);
     background-size: cover;
     opacity:0.72;  
 }
@@ -80,7 +80,7 @@ blockquote {
 }
 
 #our-mission{
-    background: url(/assets/images/home-mission-bg.png);
+    background: url(../assets/images/home-mission-bg.png);
     background-size: cover;
     margin-bottom: 240px;
     font-family: 'Be Vietnam Pro', sans-serif;
